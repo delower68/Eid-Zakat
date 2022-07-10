@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.top{
+    width: 100%;
+    height: 900px;  
+    text-align: left;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/1.jpg);
+}
+.top h1{
+    margin-left: 250px;
+    padding-top: 200px;
+    font-size: 70px;
+    font-weight: 900;
+}
+.top p{
+    margin-left: 250px;
+    padding: 20px 0;
+    font-size: 18px;
+    word-spacing: 5px;
+    color: rgb(214, 214, 214);
+}
+.btn{
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 25px;
+    margin-left: 250px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(202, 53, 26);
+}
+.middle-top{
+    display: flex;
+    grid-template-columns: 2rem ;
+    margin-top: 140px
+}
+.writting-part{
+    margin-left: 250px;
+}
+.writting-part h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.writting-part p{
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+
+}
+.img-part img {
+    margin-bottom: 150px;
+    padding-left: 100px;
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 100px;
+
+}
+.btn2{
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(202, 53, 26);
+}
+.middle-top2{
+    display: flex;
+    margin-bottom: 40px;
+}
+.writting-part2{
+    margin-left: 50px;
+
+}
+.writting-part2 h1{
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 900;
+}
+.writting-part2 p{
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+
+}
+.img-part2 img {
+    margin-bottom: 150px;
+    margin-left: 250px;
+    width: 60%;
+    height: 500px;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+.second-middle{
+    text-align: center;
+}
+.second-middle h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+.second-middle p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    color: rgb(124, 124, 124);
+    padding-bottom: 30px;
+}
+.grid{
+    text-align: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.grid1{
+    display: flex;
+}
+.donate2{
+    margin-left: 25px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.donate{
+    padding: 50px 100px;
+    text-align: left;
+    margin-bottom: 30px;
+    display: flex;
+}
+.writeing{
+    margin-left: 30px;
+}
+.writeing p{
+    margin-top: 10px;
+    word-spacing: 3px;
+    font-size: 18px;
+    color: rgb(124, 124, 124);
+}
+.color{
+    background-color: rgb(250, 238, 238);
+    border-radius: 8PX;
+}
+.grid2{
+    display: flex;
+}
+.fa-solid{
+    font-size: 55px;
+    color: rgb(43, 41, 41);
+}
+.img-part3{
+    display: flex;
+    padding: 50px;
+    background-color: rgb(243, 243, 243);
+    margin-bottom: 80px;
+}
+.img-part3 img {
+    width: 100%;
+    height: 380px;
+    border-radius:12px;
+    margin-left: 30px;
+}
+.forth-middle{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.forth-middle h1{
+    padding-top: 20px;
+    font-size: 50px;
+}
+.forth-middle p{
+    padding-top: 30px;
+    font-size: 22px;
+    color: rgb(124, 124, 124);
+}
+.for-flex{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+.provide{
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 12px;
+    margin-left: 25px;
+}
+.provide img{
+    width: 380px;
+    height: 200px;
+    border-top: 12px;
+    border-radius: 12px;
+}
+.write-for-donate{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.write-for-donate h2{
+    padding: 20px 0 40px 0;
+    font-size: 22px;
+}
+.write-for-donate h2 a{
+    padding-top: 10px;
+    color: rgb(248, 46, 46);
+}
+.write-for-donate h1{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.write-for-donate p{
+    color: rgb(124, 124, 124);
+    word-spacing: 4px;
+    font-size: 18px;
+}
+.for-footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(19, 16, 16);
+}
+.footer-write{
+    color: rgb(248, 148, 148);
+    text-align: center;
+    padding-top: 80px;
+}
+.footer-write h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-write p{
+    padding-top: 20px;
+    color: rgb(124, 124, 124);
+}
